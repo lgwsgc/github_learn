@@ -7,9 +7,10 @@
 def main():
     numbers = [1, 5, 8, 10, 12, 15, 18] 
     even_numbers = []
-    for num in numbers:
-        if num % 2 == 0:
-            even_numbers.append(num)
+    # for num in numbers:
+    #     if num % 2 == 0:
+    #         even_numbers.append(num)
+    even_numbers = [num for num in numbers if num % 2 == 0 ]
 
     print(f"even_numbers: {even_numbers}")
 

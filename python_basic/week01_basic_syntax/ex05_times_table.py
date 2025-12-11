@@ -9,6 +9,7 @@ def main():
     for j in range(1, a):
         for i in range(1, j+1):
             print(f" {i} * {j} = {j * i} ", end="")
-        print(f"\n")
+        # print(f"\n")
+        print()
 if __name__ == "__main__":
     main()
